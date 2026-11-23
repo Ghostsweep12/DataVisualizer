@@ -1,1 +1,4 @@
 # DataVisualizer
+Main Idea:
+The Universal Data Visualizer will be a website that interprets data (in common formats like JSON, CSV, XML, TXT, YAML) and converts it into a format (JSON) that can be displayed as a chart/graph depending on the user's choice.
+![Sketch](./assets/sketch.png)
