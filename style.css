@@ -4,5 +4,9 @@ body {
 
 .cooler-button{
   color:blanchedalmond;
-  background-color:aquamarine
+  background-color:aquamarine;
+}
+.upload{
+  color: black;
+  background-color: rgb(239, 239, 239);
 }
