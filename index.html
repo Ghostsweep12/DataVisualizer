@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="style.css">
     <body>
-        <script src="app.js" defer></script>
+        <script type="module" src="app.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
         <header>Hi</header>
@@ -25,7 +25,13 @@
             <option value="polarareaGraph">Polar-Area Graph</option> -->
         </select>
 
-        <!-- <select id="xAxis" name="X-Axis">-->
+        <select id="xValue" name="X-Axis">
+            <option value="timestamp">timestamp</option>
+        </select>
+
+        <select id="yValue" name="Y-Axis">
+            <option value="Motor Voltage">Motor Voltage</option>
+        </select>
 
         <div>
             <canvas id="myChart"></canvas>
